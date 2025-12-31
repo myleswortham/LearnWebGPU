@@ -83,7 +83,7 @@ cd your/project/directory
 ```
 
 ```{hint}
-From a Windows explorer window showing your project's directory, press Ctrl+L, then type `cmd` and hit return. This opens a terminal in the current directory.
+From a Windows explorer window showing your project's directory, press Ctrl+L, then type `cmd` and hit return (or enter). This opens a terminal in the current directory.
 ```
 
 Let us now ask CMake to create the build files for our project. We ask it to isolate the build files from our source code by placing them in a *build/* directory with the `-B build` option. This is very much recommended, in order to be able to easily distinguish these generated files from the ones we manually wrote (a.k.a. the source files):
